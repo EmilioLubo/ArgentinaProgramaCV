@@ -3,3 +3,24 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-image: url('../assets/joanna-kosinska-uGcDWKN91Fs-unsplash.jpg');
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+main{
+    height: 83.1vh;
+}
+.img-container{
+    float: left;
+    width: 15rem;
+    height: 15rem;
+}
+.img{
+    border-radius: 5%;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
